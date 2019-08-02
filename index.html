@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Jason Bump Personal Site</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Acme">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/slate/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-FBPbZPVh+7ks5JJ70RJmIaqyGnvMbeJ5JQfEbW0Ac6ErfvEg9yG56JQJuMNptWsH" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="/js/script.js"></script>
+</head>
+
+<body id="font">
+    <ul id="linksbar">
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/pages/vacation.html">Vacation</a></li>
+        <li><a href="https://balsam-lake-site.web.app/home">Balsam Lake Site</a></li>
+    </ul>
+    <h1>Jason Bump Full Stack Developer</h1>
+    <h2>About Me</h2>
+    <div class="row">
+        <img id="me" src="images/jp project 10.jpg" alt="c.jpg">
+    </div>
+    <br>
+    <div class="col-sm">
+        <p id="aboutMe"> My name is Jason Bump I am married with 5 children and 6 grandchildren. &nbsp; I have a Fathers
+            heart for people and to see them set free. &nbsp; I believe God has a purpose for me becoming a full stack
+            developer and believing in Faith for that to be fulfilled. &nbsp; I also have a Ministry with my beautiful
+            wife Geni called Blessed Life Ministries. &nbsp; I hope to travel the world with my family ministering the
+            gospel with signs, wonders and miracles in the future! </p>
+    </div>
+    <div>
+        <a href="https://www.facebook.com/jason.bump.7"><img class="social" src="/images/facebook-640903.ico" /></a>
+        <a href="https://github.com/bumpjas"><img class="social" src="/images/github-457467.ico" /></a>
+        <a href="https://www.linkedin.com/mynetwork/"><img class="social" src="/images/linkedin-315921.ico" /></a>
+        <a href="https://twitter.com/BUMPJAS"><img class="social" src="/images/twitter-211938.ico" /></a>
+        <a href="https://www.youtube.com/channel/UCtgIzFrnG4HTd59HssjxjXQ?view_as=subscriber"><img class="social"
+                src="/images/youtube-640904.ico" /></a>
+
+    </div>
+    <div class="col-6" id="activerepos">
+        <p>My Active Repositories on Github:</p>
+        GitHub Username:
+        <input type="text" id="username" value="bumpjas" />
+        <button type="button" class="btn btn-success" onclick="loadRepos()">Load Repos</button>
+        <ul id="repos">
+            <li>
+                <a href="{repo.html_url}""></a>
+                    </li>
+                </ul>
+ </div>
+ <div>
+     <h3 id="tech">Tech Related Skills</h3>
+                    <ul id="list">
+                        <li>HTML5</li>
+                        <li>CSS3 & SCSS</li>
+                        <li>React JavaScript</li>
+                        <li>Angular JavaScript</li>
+                        <li>Express.JS</li>
+                        <li>Cordova & Ionic</li>
+                        <li>SQL & NoSQL</li>
+                    </ul>
+    </div>
+    <div class="container-fluid">
+        <div class="row text-blue align-self-center" id="bottomrow">
+            <div class="media" id="footer">
+                <div class="media-left">
+                    <img src="/images/email.png" class="media-object" style="width:60px">
+                </div>
+                <div class="media-body">
+                    <h4 class="media-heading">Contact Me @</h4>
+                    <p>bump.jason@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

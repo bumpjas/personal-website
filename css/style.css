@@ -1,0 +1,43 @@
+#font { 
+    font-family: 'Acme', sans-serif;
+    font-size: 22px;
+    color: burlywood;
+}
+#linksbar {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: yellowgreen;
+  }
+#me
+{
+    
+    height: 320px;
+    width: 320px;
+}
+#footer {
+    margin-top: 100px;
+    position: fixed;
+    border: 3px solid gray;
+    right: 0;
+    bottom: 0;
+    color: burlywood;
+    width: 50;
+    z-index: 0;
+}
+.social {
+    height: 100px;
+    width: 100px;
+    border: 3px solid grey;
+}
+#activerepos {
+    font-size: 25px;
+}
+#repos {
+    list-style-type: none;
+    font-size: 40px;
+}
+#aboutMe, #tech, #list  {
+    font-size: 25px;
+}

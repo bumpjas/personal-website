@@ -1,0 +1,53 @@
+body{
+background-color: crimson
+}
+#linksbar {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+#linksitem {
+    color: yellowgreen;
+  }
+.title {border-style: double;
+    background-image: linear-gradient(yellow,rgba(128, 0, 0, 0.068));
+    border-width: 5px;
+    text-align: center
+
+}
+.navbar{
+    
+    background-image: linear-gradient(yellow,rgb(0, 128, 128));
+    border-width: 5px;
+    font-family: Haettenschweiler;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.5em ;
+     }
+.grid{
+    border:white;
+    border-style: double;
+    background-image: linear-gradient(yellow,orange,rgb(255, 30, 0));
+    border-width: 6px;
+    font-family:Segoe UI;
+    font-style: italic;
+    font-size: .9em ;
+    text-align: center
+    
+    }
+img {
+    border:black;
+    border-style: double;
+    border-width: 4px;
+    height: 112%;
+    width: 84%;
+    
+    }
+
+h1{
+    font-family: Geneva;
+    font-weight: bold;
+    font-style: italic;
+   }
+  
