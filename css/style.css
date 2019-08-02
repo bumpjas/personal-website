@@ -41,3 +41,9 @@
 #aboutMe, #tech, #list  {
     font-size: 25px;
 }
+#email{
+    position: absolute;
+  right: 75px;  
+  width: 200px;
+  height: 120px;
+}
